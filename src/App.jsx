@@ -68,7 +68,7 @@ const App = () => {
     try {
       const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
       const response = await ai.models.generateContent({
-        model: "gemini-3.5-flash",
+        model: "gemini-2.5-flash",
         contents: `Summarize the following text while preserving all important information.
                   Write a clear and well-structured summary in simple English.
                   Do not add any new information.
