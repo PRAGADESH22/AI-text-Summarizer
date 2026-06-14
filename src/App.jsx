@@ -232,7 +232,7 @@ const App = () => {
             </div>
           )}
         </div>
-        <p className="mx-auto "> Build with React,Tailwind CSS,DaisyUI and Google API </p>
+        <p className="mx-auto text-sm"> Build with React,Tailwind CSS,DaisyUI and Google API </p>
         <div className="mt-auto">
           <Footer />
         </div>
